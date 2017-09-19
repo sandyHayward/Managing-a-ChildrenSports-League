@@ -12,6 +12,8 @@
 		5D4E6A5C1CAAF5EB00EE3B88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D4E6A5A1CAAF5EB00EE3B88 /* Main.storyboard */; };
 		5D4E6A5E1CAAF5EB00EE3B88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D4E6A5D1CAAF5EB00EE3B88 /* Assets.xcassets */; };
 		5D4E6A611CAAF5EB00EE3B88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D4E6A5F1CAAF5EB00EE3B88 /* LaunchScreen.storyboard */; };
+		921DAE5D1F71050100A2DD6F /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 921DAE5C1F71050000A2DD6F /* Property List.plist */; };
+		921DAE611F7108C400A2DD6F /* Player List.csv in Resources */ = {isa = PBXBuildFile; fileRef = 921DAE601F7108C400A2DD6F /* Player List.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,9 @@
 		5D4E6A5D1CAAF5EB00EE3B88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D4E6A601CAAF5EB00EE3B88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D4E6A621CAAF5EB00EE3B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		921DAE5B1F70F23300A2DD6F /* soccerCoordinatorPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = soccerCoordinatorPlayground.playground; sourceTree = "<group>"; };
+		921DAE5C1F71050000A2DD6F /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		921DAE601F7108C400A2DD6F /* Player List.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Player List.csv"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +63,11 @@
 				5D4E6A581CAAF5EB00EE3B88 /* ViewController.swift */,
 				5D4E6A5A1CAAF5EB00EE3B88 /* Main.storyboard */,
 				5D4E6A5D1CAAF5EB00EE3B88 /* Assets.xcassets */,
+				921DAE601F7108C400A2DD6F /* Player List.csv */,
+				921DAE5B1F70F23300A2DD6F /* soccerCoordinatorPlayground.playground */,
 				5D4E6A5F1CAAF5EB00EE3B88 /* LaunchScreen.storyboard */,
 				5D4E6A621CAAF5EB00EE3B88 /* Info.plist */,
+				921DAE5C1F71050000A2DD6F /* Property List.plist */,
 			);
 			path = SoccerCoordinator;
 			sourceTree = "<group>";
@@ -125,7 +133,9 @@
 			files = (
 				5D4E6A611CAAF5EB00EE3B88 /* LaunchScreen.storyboard in Resources */,
 				5D4E6A5E1CAAF5EB00EE3B88 /* Assets.xcassets in Resources */,
+				921DAE5D1F71050100A2DD6F /* Property List.plist in Resources */,
 				5D4E6A5C1CAAF5EB00EE3B88 /* Main.storyboard in Resources */,
+				921DAE611F7108C400A2DD6F /* Player List.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
